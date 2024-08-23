@@ -141,7 +141,7 @@ function calculaChanceDeErrar() {
   } else {
     chanceDeErrar -= 1;
     if (chanceDeErrar <= 35) {
-      chanceDeErrar = 35;
+      chanceDeErrar = 55;
     }
   }
 }
