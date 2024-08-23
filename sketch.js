@@ -136,7 +136,7 @@ function calculaChanceDeErrar() {
   if (pontosInimigo >= meusPontos) {
     chanceDeErrar += 1;
     if (chanceDeErrar >= 39) {
-      chanceDeErrar = 80;
+      chanceDeErrar = 60;
     }
   } else {
     chanceDeErrar -= 1;
